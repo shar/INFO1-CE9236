@@ -1,0 +1,86 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* HelloAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 247}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 321}";
+			sepNavWindowFrame = "{{38, 137}, {978, 583}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Hello */ = {
+		activeExec = 0;
+		executables = (
+			DDA10948144B3A3300E838A5 /* Hello */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DDA10948144B3A3300E838A5 /* Hello */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Hello */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Hello */,
+		);
+		codeSenseManager = DDA10959144B3A5200E838A5 /* Code sense */;
+		executables = (
+			DDA10948144B3A3300E838A5 /* Hello */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 340475823;
+			PBXWorkspaceStateSaveDate = 340475823;
+		};
+		sourceControlManager = DDA10958144B3A5200E838A5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {523, 299}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 374}";
+			sepNavWindowFrame = "{{14, 105}, {978, 583}}";
+		};
+	};
+	DDA10948144B3A3300E838A5 /* Hello */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Hello;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	DDA10958144B3A5200E838A5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	DDA10959144B3A5200E838A5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
