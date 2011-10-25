@@ -20,6 +20,7 @@
 }
 
 
+
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect
@@ -58,10 +59,10 @@
     CGContextFillPath(c);
 
     // welcome text
-    CGContextSetRGBFillColor(c, 0.0, 0.0, 0.0, 1.0);
-    NSString *s = NSLocalizedString(@"Greeting", @"displayed with drawAtPoint");
+    //CGContextSetRGBFillColor(c, 0.0, 0.0, 0.0, 1.0);
+    //NSString *s = NSLocalizedString(@"Greeting", @"displayed with drawAtPoint");
     
-    [s drawAtPoint:CGPointMake(50,50) withFont:[UIFont systemFontOfSize: 50]];
+    //[s drawAtPoint:CGPointMake(50,50) withFont:[UIFont systemFontOfSize: 50]];
 
     /*
     // add graph line //
@@ -236,7 +237,6 @@
     CGContextSetRGBFillColor(c, 0.0, 0.0, 1.0, 1.0);
     NSString *blue = NSLocalizedString(@"Blue", @"displayed with drawAtPoint");
     [blue drawAtPoint:CGPointMake(f.origin.x + 60, board.size.height + 120) withFont:[UIFont systemFontOfSize: 32]];
-
 }
 
 
