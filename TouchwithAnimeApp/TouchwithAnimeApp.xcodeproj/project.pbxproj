@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD85477F145E5340002CF62B /* chocobo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD85477E145E5340002CF62B /* chocobo.jpg */; };
+		DD854781145E5351002CF62B /* moogle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD854780145E5351002CF62B /* moogle.jpg */; };
+		DD854783145E535A002CF62B /* moogleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD854782145E535A002CF62B /* moogleicon.png */; };
+		DD854785145E5363002CF62B /* Electric.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD854784145E5363002CF62B /* Electric.mp3 */; };
 		DD8D3B49145D998C0067586A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3B48145D998C0067586A /* UIKit.framework */; };
 		DD8D3B4B145D998C0067586A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3B4A145D998C0067586A /* Foundation.framework */; };
 		DD8D3B4D145D998C0067586A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3B4C145D998C0067586A /* CoreGraphics.framework */; };
@@ -20,12 +24,8 @@
 		DD8D3B6E145D998C0067586A /* TouchwithAnimeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D3B6D145D998C0067586A /* TouchwithAnimeAppTests.m */; };
 		DD8D3B7B145D9AEC0067586A /* PadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D3B7A145D9AEC0067586A /* PadView.m */; };
 		DD8D3B81145DA6F30067586A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3B80145DA6F30067586A /* AVFoundation.framework */; };
-		DD8D3C52145DB1850067586A /* Electric.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3C51145DB1850067586A /* Electric.mp3 */; };
-		DD8D3C54145DB2F80067586A /* chocobo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3C53145DB2F80067586A /* chocobo.jpg */; };
 		DD8D3C56145DF97E0067586A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3C55145DF97E0067586A /* QuartzCore.framework */; };
-		DD8D3C58145DFEAE0067586A /* moogle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3C57145DFEAE0067586A /* moogle.jpg */; };
 		DD8D3C5C145E3F9B0067586A /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3C5B145E3F9B0067586A /* Default~ipad.png */; };
-		DD8D3C5E145E414C0067586A /* moogleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3C5D145E414C0067586A /* moogleicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD85477E145E5340002CF62B /* chocobo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chocobo.jpg; sourceTree = "<group>"; };
+		DD854780145E5351002CF62B /* moogle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moogle.jpg; sourceTree = "<group>"; };
+		DD854782145E535A002CF62B /* moogleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moogleicon.png; sourceTree = "<group>"; };
+		DD854784145E5363002CF62B /* Electric.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Electric.mp3; sourceTree = "<group>"; };
 		DD8D3B44145D998C0067586A /* TouchwithAnimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchwithAnimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8D3B48145D998C0067586A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD8D3B4A145D998C0067586A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,12 +62,8 @@
 		DD8D3B79145D9AEC0067586A /* PadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PadView.h; sourceTree = "<group>"; };
 		DD8D3B7A145D9AEC0067586A /* PadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PadView.m; sourceTree = "<group>"; };
 		DD8D3B80145DA6F30067586A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		DD8D3C51145DB1850067586A /* Electric.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Electric.mp3; path = ../../../Downloads/Electric.mp3; sourceTree = "<group>"; };
-		DD8D3C53145DB2F80067586A /* chocobo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chocobo.jpg; path = ../../../Downloads/chocobo.jpg; sourceTree = "<group>"; };
 		DD8D3C55145DF97E0067586A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		DD8D3C57145DFEAE0067586A /* moogle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moogle.jpg; path = ../../../Downloads/moogle.jpg; sourceTree = "<group>"; };
 		DD8D3C5B145E3F9B0067586A /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~ipad.png"; path = "../Default~ipad.png"; sourceTree = "<group>"; };
-		DD8D3C5D145E414C0067586A /* moogleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moogleicon.png; path = ../../../Downloads/moogleicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,10 +139,10 @@
 		DD8D3B4F145D998C0067586A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD8D3C5D145E414C0067586A /* moogleicon.png */,
-				DD8D3C57145DFEAE0067586A /* moogle.jpg */,
-				DD8D3C53145DB2F80067586A /* chocobo.jpg */,
-				DD8D3C51145DB1850067586A /* Electric.mp3 */,
+				DD854784145E5363002CF62B /* Electric.mp3 */,
+				DD854782145E535A002CF62B /* moogleicon.png */,
+				DD854780145E5351002CF62B /* moogle.jpg */,
+				DD85477E145E5340002CF62B /* chocobo.jpg */,
 				DD8D3B50145D998C0067586A /* TouchwithAnimeApp-Info.plist */,
 				DD8D3C5B145E3F9B0067586A /* Default~ipad.png */,
 				DD8D3B51145D998C0067586A /* InfoPlist.strings */,
@@ -242,11 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD8D3B53145D998C0067586A /* InfoPlist.strings in Resources */,
-				DD8D3C52145DB1850067586A /* Electric.mp3 in Resources */,
-				DD8D3C54145DB2F80067586A /* chocobo.jpg in Resources */,
-				DD8D3C58145DFEAE0067586A /* moogle.jpg in Resources */,
 				DD8D3C5C145E3F9B0067586A /* Default~ipad.png in Resources */,
-				DD8D3C5E145E414C0067586A /* moogleicon.png in Resources */,
+				DD85477F145E5340002CF62B /* chocobo.jpg in Resources */,
+				DD854781145E5351002CF62B /* moogle.jpg in Resources */,
+				DD854783145E535A002CF62B /* moogleicon.png in Resources */,
+				DD854785145E5363002CF62B /* Electric.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +455,7 @@
 				DD8D3B73145D998C0067586A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD8D3B74145D998C0067586A /* Build configuration list for PBXNativeTarget "TouchwithAnimeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +464,7 @@
 				DD8D3B76145D998C0067586A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
