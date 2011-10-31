@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD8D3B49145D998C0067586A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3B48145D998C0067586A /* UIKit.framework */; };
+		DD8D3B4B145D998C0067586A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3B4A145D998C0067586A /* Foundation.framework */; };
+		DD8D3B4D145D998C0067586A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3B4C145D998C0067586A /* CoreGraphics.framework */; };
+		DD8D3B53145D998C0067586A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3B51145D998C0067586A /* InfoPlist.strings */; };
+		DD8D3B55145D998C0067586A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D3B54145D998C0067586A /* main.m */; };
+		DD8D3B59145D998C0067586A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D3B58145D998C0067586A /* AppDelegate.m */; };
+		DD8D3B61145D998C0067586A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3B60145D998C0067586A /* SenTestingKit.framework */; };
+		DD8D3B62145D998C0067586A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3B48145D998C0067586A /* UIKit.framework */; };
+		DD8D3B63145D998C0067586A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3B4A145D998C0067586A /* Foundation.framework */; };
+		DD8D3B6B145D998C0067586A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3B69145D998C0067586A /* InfoPlist.strings */; };
+		DD8D3B6E145D998C0067586A /* TouchwithAnimeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D3B6D145D998C0067586A /* TouchwithAnimeAppTests.m */; };
+		DD8D3B7B145D9AEC0067586A /* PadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D3B7A145D9AEC0067586A /* PadView.m */; };
+		DD8D3B81145DA6F30067586A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3B80145DA6F30067586A /* AVFoundation.framework */; };
+		DD8D3C52145DB1850067586A /* Electric.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3C51145DB1850067586A /* Electric.mp3 */; };
+		DD8D3C54145DB2F80067586A /* chocobo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3C53145DB2F80067586A /* chocobo.jpg */; };
+		DD8D3C56145DF97E0067586A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8D3C55145DF97E0067586A /* QuartzCore.framework */; };
+		DD8D3C58145DFEAE0067586A /* moogle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3C57145DFEAE0067586A /* moogle.jpg */; };
+		DD8D3C5C145E3F9B0067586A /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3C5B145E3F9B0067586A /* Default~ipad.png */; };
+		DD8D3C5E145E414C0067586A /* moogleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8D3C5D145E414C0067586A /* moogleicon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD8D3B64145D998C0067586A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD8D3B3B145D998C0067586A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD8D3B43145D998C0067586A;
+			remoteInfo = TouchwithAnimeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD8D3B44145D998C0067586A /* TouchwithAnimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchwithAnimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8D3B48145D998C0067586A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD8D3B4A145D998C0067586A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD8D3B4C145D998C0067586A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD8D3B50145D998C0067586A /* TouchwithAnimeApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchwithAnimeApp-Info.plist"; sourceTree = "<group>"; };
+		DD8D3B52145D998C0067586A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD8D3B54145D998C0067586A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD8D3B56145D998C0067586A /* TouchwithAnimeApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchwithAnimeApp-Prefix.pch"; sourceTree = "<group>"; };
+		DD8D3B57145D998C0067586A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD8D3B58145D998C0067586A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD8D3B5F145D998C0067586A /* TouchwithAnimeAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchwithAnimeAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8D3B60145D998C0067586A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD8D3B68145D998C0067586A /* TouchwithAnimeAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchwithAnimeAppTests-Info.plist"; sourceTree = "<group>"; };
+		DD8D3B6A145D998C0067586A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD8D3B6C145D998C0067586A /* TouchwithAnimeAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchwithAnimeAppTests.h; sourceTree = "<group>"; };
+		DD8D3B6D145D998C0067586A /* TouchwithAnimeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchwithAnimeAppTests.m; sourceTree = "<group>"; };
+		DD8D3B79145D9AEC0067586A /* PadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PadView.h; sourceTree = "<group>"; };
+		DD8D3B7A145D9AEC0067586A /* PadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PadView.m; sourceTree = "<group>"; };
+		DD8D3B80145DA6F30067586A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DD8D3C51145DB1850067586A /* Electric.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Electric.mp3; path = ../../../Downloads/Electric.mp3; sourceTree = "<group>"; };
+		DD8D3C53145DB2F80067586A /* chocobo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chocobo.jpg; path = ../../../Downloads/chocobo.jpg; sourceTree = "<group>"; };
+		DD8D3C55145DF97E0067586A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD8D3C57145DFEAE0067586A /* moogle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moogle.jpg; path = ../../../Downloads/moogle.jpg; sourceTree = "<group>"; };
+		DD8D3C5B145E3F9B0067586A /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~ipad.png"; path = "../Default~ipad.png"; sourceTree = "<group>"; };
+		DD8D3C5D145E414C0067586A /* moogleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moogleicon.png; path = ../../../Downloads/moogleicon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD8D3B41145D998C0067586A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8D3C56145DF97E0067586A /* QuartzCore.framework in Frameworks */,
+				DD8D3B81145DA6F30067586A /* AVFoundation.framework in Frameworks */,
+				DD8D3B49145D998C0067586A /* UIKit.framework in Frameworks */,
+				DD8D3B4B145D998C0067586A /* Foundation.framework in Frameworks */,
+				DD8D3B4D145D998C0067586A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8D3B5B145D998C0067586A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8D3B61145D998C0067586A /* SenTestingKit.framework in Frameworks */,
+				DD8D3B62145D998C0067586A /* UIKit.framework in Frameworks */,
+				DD8D3B63145D998C0067586A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD8D3B39145D998C0067586A = {
+			isa = PBXGroup;
+			children = (
+				DD8D3B4E145D998C0067586A /* TouchwithAnimeApp */,
+				DD8D3B66145D998C0067586A /* TouchwithAnimeAppTests */,
+				DD8D3B47145D998C0067586A /* Frameworks */,
+				DD8D3B45145D998C0067586A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD8D3B45145D998C0067586A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D3B44145D998C0067586A /* TouchwithAnimeApp.app */,
+				DD8D3B5F145D998C0067586A /* TouchwithAnimeAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD8D3B47145D998C0067586A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D3C55145DF97E0067586A /* QuartzCore.framework */,
+				DD8D3B48145D998C0067586A /* UIKit.framework */,
+				DD8D3B80145DA6F30067586A /* AVFoundation.framework */,
+				DD8D3B4A145D998C0067586A /* Foundation.framework */,
+				DD8D3B4C145D998C0067586A /* CoreGraphics.framework */,
+				DD8D3B60145D998C0067586A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD8D3B4E145D998C0067586A /* TouchwithAnimeApp */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D3B57145D998C0067586A /* AppDelegate.h */,
+				DD8D3B58145D998C0067586A /* AppDelegate.m */,
+				DD8D3B79145D9AEC0067586A /* PadView.h */,
+				DD8D3B7A145D9AEC0067586A /* PadView.m */,
+				DD8D3B4F145D998C0067586A /* Supporting Files */,
+			);
+			path = TouchwithAnimeApp;
+			sourceTree = "<group>";
+		};
+		DD8D3B4F145D998C0067586A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D3C5D145E414C0067586A /* moogleicon.png */,
+				DD8D3C57145DFEAE0067586A /* moogle.jpg */,
+				DD8D3C53145DB2F80067586A /* chocobo.jpg */,
+				DD8D3C51145DB1850067586A /* Electric.mp3 */,
+				DD8D3B50145D998C0067586A /* TouchwithAnimeApp-Info.plist */,
+				DD8D3C5B145E3F9B0067586A /* Default~ipad.png */,
+				DD8D3B51145D998C0067586A /* InfoPlist.strings */,
+				DD8D3B54145D998C0067586A /* main.m */,
+				DD8D3B56145D998C0067586A /* TouchwithAnimeApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD8D3B66145D998C0067586A /* TouchwithAnimeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D3B6C145D998C0067586A /* TouchwithAnimeAppTests.h */,
+				DD8D3B6D145D998C0067586A /* TouchwithAnimeAppTests.m */,
+				DD8D3B67145D998C0067586A /* Supporting Files */,
+			);
+			path = TouchwithAnimeAppTests;
+			sourceTree = "<group>";
+		};
+		DD8D3B67145D998C0067586A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D3B68145D998C0067586A /* TouchwithAnimeAppTests-Info.plist */,
+				DD8D3B69145D998C0067586A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD8D3B43145D998C0067586A /* TouchwithAnimeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8D3B71145D998C0067586A /* Build configuration list for PBXNativeTarget "TouchwithAnimeApp" */;
+			buildPhases = (
+				DD8D3B40145D998C0067586A /* Sources */,
+				DD8D3B41145D998C0067586A /* Frameworks */,
+				DD8D3B42145D998C0067586A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchwithAnimeApp;
+			productName = TouchwithAnimeApp;
+			productReference = DD8D3B44145D998C0067586A /* TouchwithAnimeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD8D3B5E145D998C0067586A /* TouchwithAnimeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8D3B74145D998C0067586A /* Build configuration list for PBXNativeTarget "TouchwithAnimeAppTests" */;
+			buildPhases = (
+				DD8D3B5A145D998C0067586A /* Sources */,
+				DD8D3B5B145D998C0067586A /* Frameworks */,
+				DD8D3B5C145D998C0067586A /* Resources */,
+				DD8D3B5D145D998C0067586A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD8D3B65145D998C0067586A /* PBXTargetDependency */,
+			);
+			name = TouchwithAnimeAppTests;
+			productName = TouchwithAnimeAppTests;
+			productReference = DD8D3B5F145D998C0067586A /* TouchwithAnimeAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD8D3B3B145D998C0067586A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DD8D3B3E145D998C0067586A /* Build configuration list for PBXProject "TouchwithAnimeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD8D3B39145D998C0067586A;
+			productRefGroup = DD8D3B45145D998C0067586A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD8D3B43145D998C0067586A /* TouchwithAnimeApp */,
+				DD8D3B5E145D998C0067586A /* TouchwithAnimeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD8D3B42145D998C0067586A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8D3B53145D998C0067586A /* InfoPlist.strings in Resources */,
+				DD8D3C52145DB1850067586A /* Electric.mp3 in Resources */,
+				DD8D3C54145DB2F80067586A /* chocobo.jpg in Resources */,
+				DD8D3C58145DFEAE0067586A /* moogle.jpg in Resources */,
+				DD8D3C5C145E3F9B0067586A /* Default~ipad.png in Resources */,
+				DD8D3C5E145E414C0067586A /* moogleicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8D3B5C145D998C0067586A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8D3B6B145D998C0067586A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD8D3B5D145D998C0067586A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD8D3B40145D998C0067586A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8D3B55145D998C0067586A /* main.m in Sources */,
+				DD8D3B59145D998C0067586A /* AppDelegate.m in Sources */,
+				DD8D3B7B145D9AEC0067586A /* PadView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8D3B5A145D998C0067586A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8D3B6E145D998C0067586A /* TouchwithAnimeAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD8D3B65145D998C0067586A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD8D3B43145D998C0067586A /* TouchwithAnimeApp */;
+			targetProxy = DD8D3B64145D998C0067586A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD8D3B51145D998C0067586A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8D3B52145D998C0067586A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD8D3B69145D998C0067586A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8D3B6A145D998C0067586A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD8D3B6F145D998C0067586A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DD8D3B70145D998C0067586A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD8D3B72145D998C0067586A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchwithAnimeApp/TouchwithAnimeApp-Prefix.pch";
+				INFOPLIST_FILE = "TouchwithAnimeApp/TouchwithAnimeApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD8D3B73145D998C0067586A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchwithAnimeApp/TouchwithAnimeApp-Prefix.pch";
+				INFOPLIST_FILE = "TouchwithAnimeApp/TouchwithAnimeApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD8D3B75145D998C0067586A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchwithAnimeApp.app/TouchwithAnimeApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchwithAnimeApp/TouchwithAnimeApp-Prefix.pch";
+				INFOPLIST_FILE = "TouchwithAnimeAppTests/TouchwithAnimeAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DD8D3B76145D998C0067586A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchwithAnimeApp.app/TouchwithAnimeApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchwithAnimeApp/TouchwithAnimeApp-Prefix.pch";
+				INFOPLIST_FILE = "TouchwithAnimeAppTests/TouchwithAnimeAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD8D3B3E145D998C0067586A /* Build configuration list for PBXProject "TouchwithAnimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8D3B6F145D998C0067586A /* Debug */,
+				DD8D3B70145D998C0067586A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8D3B71145D998C0067586A /* Build configuration list for PBXNativeTarget "TouchwithAnimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8D3B72145D998C0067586A /* Debug */,
+				DD8D3B73145D998C0067586A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD8D3B74145D998C0067586A /* Build configuration list for PBXNativeTarget "TouchwithAnimeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8D3B75145D998C0067586A /* Debug */,
+				DD8D3B76145D998C0067586A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD8D3B3B145D998C0067586A /* Project object */;
+}
