@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  Nov10
 //
-//  Created by Sukman Har on 11/8/11.
+//  Created by Sukman Har on 11/5/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "PadView.h"
 
 @implementation AppDelegate
 
@@ -14,11 +15,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+    UIScreen *screen = [UIScreen mainScreen];
+	padview = [[PadView alloc] initWithFrame: screen.applicationFrame];
+	self.window = [[UIWindow alloc] initWithFrame: screen.bounds];
+    
+	[self.window addSubview: padview];
+	[self.window makeKeyAndVisible];
+    
+	return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

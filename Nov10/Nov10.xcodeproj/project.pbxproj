@@ -19,6 +19,16 @@
 		DD231C38146A363C00F0AF5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD231C36146A363C00F0AF5E /* InfoPlist.strings */; };
 		DD231C3B146A363C00F0AF5E /* Nov10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD231C3A146A363C00F0AF5E /* Nov10Tests.m */; };
 		DD231C45146A370D00F0AF5E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD231C44146A370D00F0AF5E /* QuartzCore.framework */; };
+		DD51BF25146A394200638E4B /* PadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD51BF1E146A394200638E4B /* PadView.m */; };
+		DD51BF26146A394200638E4B /* SubView0.m in Sources */ = {isa = PBXBuildFile; fileRef = DD51BF20146A394200638E4B /* SubView0.m */; };
+		DD51BF27146A394200638E4B /* SubView1.m in Sources */ = {isa = PBXBuildFile; fileRef = DD51BF22146A394200638E4B /* SubView1.m */; };
+		DD51BF28146A394200638E4B /* SubView2.m in Sources */ = {isa = PBXBuildFile; fileRef = DD51BF24146A394200638E4B /* SubView2.m */; };
+		DD51BF30146A395D00638E4B /* chocobo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD51BF2A146A395D00638E4B /* chocobo.jpg */; };
+		DD51BF31146A395D00638E4B /* moogle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD51BF2B146A395D00638E4B /* moogle.jpg */; };
+		DD51BF32146A395D00638E4B /* star0.png in Resources */ = {isa = PBXBuildFile; fileRef = DD51BF2C146A395D00638E4B /* star0.png */; };
+		DD51BF33146A395D00638E4B /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD51BF2D146A395D00638E4B /* star1.png */; };
+		DD51BF34146A395D00638E4B /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD51BF2E146A395D00638E4B /* star2.png */; };
+		DD51BF35146A395D00638E4B /* star3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD51BF2F146A395D00638E4B /* star3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,20 @@
 		DD231C39146A363C00F0AF5E /* Nov10Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov10Tests.h; sourceTree = "<group>"; };
 		DD231C3A146A363C00F0AF5E /* Nov10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov10Tests.m; sourceTree = "<group>"; };
 		DD231C44146A370D00F0AF5E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD51BF1D146A394200638E4B /* PadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PadView.h; sourceTree = "<group>"; };
+		DD51BF1E146A394200638E4B /* PadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PadView.m; sourceTree = "<group>"; };
+		DD51BF1F146A394200638E4B /* SubView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubView0.h; sourceTree = "<group>"; };
+		DD51BF20146A394200638E4B /* SubView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubView0.m; sourceTree = "<group>"; };
+		DD51BF21146A394200638E4B /* SubView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubView1.h; sourceTree = "<group>"; };
+		DD51BF22146A394200638E4B /* SubView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubView1.m; sourceTree = "<group>"; };
+		DD51BF23146A394200638E4B /* SubView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubView2.h; sourceTree = "<group>"; };
+		DD51BF24146A394200638E4B /* SubView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubView2.m; sourceTree = "<group>"; };
+		DD51BF2A146A395D00638E4B /* chocobo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chocobo.jpg; sourceTree = "<group>"; };
+		DD51BF2B146A395D00638E4B /* moogle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moogle.jpg; sourceTree = "<group>"; };
+		DD51BF2C146A395D00638E4B /* star0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star0.png; sourceTree = "<group>"; };
+		DD51BF2D146A395D00638E4B /* star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1.png; sourceTree = "<group>"; };
+		DD51BF2E146A395D00638E4B /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
+		DD51BF2F146A395D00638E4B /* star3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +134,14 @@
 		DD231C1B146A363B00F0AF5E /* Nov10 */ = {
 			isa = PBXGroup;
 			children = (
+				DD51BF1D146A394200638E4B /* PadView.h */,
+				DD51BF1E146A394200638E4B /* PadView.m */,
+				DD51BF1F146A394200638E4B /* SubView0.h */,
+				DD51BF20146A394200638E4B /* SubView0.m */,
+				DD51BF21146A394200638E4B /* SubView1.h */,
+				DD51BF22146A394200638E4B /* SubView1.m */,
+				DD51BF23146A394200638E4B /* SubView2.h */,
+				DD51BF24146A394200638E4B /* SubView2.m */,
 				DD231C24146A363B00F0AF5E /* AppDelegate.h */,
 				DD231C25146A363C00F0AF5E /* AppDelegate.m */,
 				DD231C1C146A363B00F0AF5E /* Supporting Files */,
@@ -120,6 +152,12 @@
 		DD231C1C146A363B00F0AF5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD51BF2A146A395D00638E4B /* chocobo.jpg */,
+				DD51BF2B146A395D00638E4B /* moogle.jpg */,
+				DD51BF2C146A395D00638E4B /* star0.png */,
+				DD51BF2D146A395D00638E4B /* star1.png */,
+				DD51BF2E146A395D00638E4B /* star2.png */,
+				DD51BF2F146A395D00638E4B /* star3.png */,
 				DD231C1D146A363B00F0AF5E /* Nov10-Info.plist */,
 				DD231C1E146A363B00F0AF5E /* InfoPlist.strings */,
 				DD231C21146A363B00F0AF5E /* main.m */,
@@ -218,6 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD231C20146A363B00F0AF5E /* InfoPlist.strings in Resources */,
+				DD51BF30146A395D00638E4B /* chocobo.jpg in Resources */,
+				DD51BF31146A395D00638E4B /* moogle.jpg in Resources */,
+				DD51BF32146A395D00638E4B /* star0.png in Resources */,
+				DD51BF33146A395D00638E4B /* star1.png in Resources */,
+				DD51BF34146A395D00638E4B /* star2.png in Resources */,
+				DD51BF35146A395D00638E4B /* star3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +298,10 @@
 			files = (
 				DD231C22146A363B00F0AF5E /* main.m in Sources */,
 				DD231C26146A363C00F0AF5E /* AppDelegate.m in Sources */,
+				DD51BF25146A394200638E4B /* PadView.m in Sources */,
+				DD51BF26146A394200638E4B /* SubView0.m in Sources */,
+				DD51BF27146A394200638E4B /* SubView1.m in Sources */,
+				DD51BF28146A394200638E4B /* SubView2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +465,7 @@
 				DD231C40146A363C00F0AF5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD231C41146A363C00F0AF5E /* Build configuration list for PBXNativeTarget "Nov10Tests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +474,7 @@
 				DD231C43146A363C00F0AF5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
